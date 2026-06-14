@@ -1,0 +1,17 @@
+{
+  "name": "xeno-channel-service",
+  "version": "1.0.0",
+  "description": "Stubbed mock channel service for the Xeno CRM assignment",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "npx ts-node src/main.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.7.3",
+    "ts-node": "^10.9.2"
+  }
+}
